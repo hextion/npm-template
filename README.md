@@ -1,1 +1,1 @@
-# npm-project-template
+# npm-template
