@@ -1,4 +1,4 @@
 {
-  "*.{json,md}": ["prettier --write", "git add"],
-  "*.js": ["eslint --fix", "git add"]
+  "*.{json,md}": ["prettier --list-different", "git add"],
+  "*.js": ["prettier --list-different", "eslint --max-warnings 0", "git add"]
 }
