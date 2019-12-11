@@ -4,6 +4,7 @@
   "description": "npm template",
   "scripts": {
     "format": "prettier --list-different \"**/*.{js,md,json}\"",
+    "format:fix": "prettier --write \"**/*.{js,md,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
