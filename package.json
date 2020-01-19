@@ -6,7 +6,7 @@
     "format": "prettier --list-different \"**/*.{js,md,json}\"",
     "format:fix": "prettier --write \"**/*.{js,md,json}\"",
     "lint": "eslint --ext .js --max-warnings 0 src",
-    "lint:fix": "eslint --ext .js --fix src",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
