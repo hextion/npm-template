@@ -2,6 +2,8 @@
   "name": "npm-template",
   "version": "0.0.1",
   "description": "npm template",
+  "license": "MIT",
+  "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
   "scripts": {
     "format": "prettier --list-different \"**/*.{js,md,json}\"",
     "format:fix": "npm run format -- --write",
@@ -9,8 +11,6 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
