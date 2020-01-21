@@ -1,7 +1,6 @@
 /* eslint-env es6,commonjs */
 const prettier = 'prettier --list-different';
 const eslint = 'eslint --max-warnings 0';
-const add = 'git add';
 
 /**
  * Return array of passed commands
@@ -12,6 +11,6 @@ const add = 'git add';
 const run = (...commands) => commands;
 
 module.exports = {
-  '*.{json,md}': run(prettier, add),
-  '*.js': run(prettier, eslint, add),
+  '*.{json,md}': run(prettier),
+  '*.js': run(prettier, eslint),
 };
