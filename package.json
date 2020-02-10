@@ -1,7 +1,7 @@
 {
   "name": "npm-template",
   "version": "0.0.1",
-  "description": "npm template",
+  "description": "npm-template",
   "license": "MIT",
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
   "scripts": {
